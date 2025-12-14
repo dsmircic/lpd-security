@@ -83,11 +83,6 @@ export default function Footer() {
                   Home
                 </ChakraLink>
               </RouterLink>
-              <RouterLink to="/products">
-                <ChakraLink fontSize="sm" _hover={{ color: "blue.300" }}>
-                  Products
-                </ChakraLink>
-              </RouterLink>
               <RouterLink to="/services">
                 <ChakraLink fontSize="sm" _hover={{ color: "blue.300" }}>
                   Services

@@ -165,21 +165,6 @@ export default function Home() {
 
             <MotionBox variants={itemVariants}>
               <HStack spacing={4} flexWrap={{ base: "wrap", md: "nowrap" }}>
-                <RouterLink to="/products">
-                  <Button
-                    size="lg"
-                    bgGradient="linear(to-r, #2563eb, #1d4ed8)"
-                    color="white"
-                    rightIcon={<ArrowRight size={20} />}
-                    _hover={{
-                      transform: "translateY(-4px)",
-                      boxShadow: "0 20px 40px rgba(37, 99, 235, 0.4)",
-                    }}
-                    transition="all 0.3s"
-                  >
-                    Explore Products
-                  </Button>
-                </RouterLink>
                 <RouterLink to="/services">
                   <Button
                     size="lg"
