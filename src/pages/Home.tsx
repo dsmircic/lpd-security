@@ -177,7 +177,7 @@ export default function Home() {
                       transform: "translateY(-2px)",
                     }}
                   >
-                    View Services
+                    {t("home.hero.viewServices")}
                   </Button>
                 </RouterLink>
               </HStack>
@@ -196,10 +196,10 @@ export default function Home() {
         >
           <MotionBox variants={itemVariants} textAlign="center" mb={12}>
             <Heading as="h2" size="xl" mb={4}>
-              Why Choose Shelly Security?
+              {t("home.features.title")}
             </Heading>
             <Text color="gray.600" fontSize="lg" maxW="600px" mx="auto">
-              Industry-leading features designed for modern homes
+              {t("home.features.subtitle")}
             </Text>
           </MotionBox>
 
@@ -232,7 +232,7 @@ export default function Home() {
                       <Icon color="#2563eb" size={28} />
                     </Box>
                     <Heading as="h3" size="md" mb={2}>
-                      {feature.title}
+                      {t(feature.title)}
                     </Heading>
                     <Text color="gray.600">{feature.description}</Text>
                   </CardBody>
@@ -260,14 +260,13 @@ export default function Home() {
           >
             <MotionBox variants={itemVariants} mb={6}>
               <Heading as="h2" size="xl">
-                Ready to Secure Your Home?
+                {t("home.cta.title")}
               </Heading>
             </MotionBox>
 
             <MotionBox variants={itemVariants} mb={8}>
               <Text fontSize="lg" color="blue.100">
-                Get started today and enjoy professional installation and 24/7
-                support
+                {t("home.cta.description")}
               </Text>
             </MotionBox>
 
@@ -285,7 +284,7 @@ export default function Home() {
                   }}
                   rightIcon={<ArrowRight size={20} />}
                 >
-                  Get Your Free Consultation
+                  {t("home.cta.button")}
                 </Button>
               </RouterLink>
             </MotionBox>

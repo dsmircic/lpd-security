@@ -105,62 +105,62 @@
     "installation": {
       "title": "Professional Installation",
       "description": "Expert installation by certified technicians",
-      "features": [
-        "Site assessment and consultation",
-        "Complete device setup",
-        "Network configuration",
-        "Testing and verification"
-      ]
+      "features": {
+        "siteAssessment": "Site assessment and consultation",
+        "deviceSetup": "Complete device setup",
+        "networkConfiguration": "Network configuration",
+        "testingVerification": "Testing and verification"
+      }
     },
     "monitoring": {
       "title": "System Monitoring",
       "description": "24/7 professional security monitoring",
-      "features": [
-        "Real-time alerts",
-        "Emergency response",
-        "Mobile app notifications",
-        "Detailed reporting"
-      ]
+      "features": {
+        "realTimeAlerts": "Real-time alerts",
+        "emergencyResponse": "Emergency response",
+        "mobileAppNotifications": "Mobile app notifications",
+        "detailedReporting": "Detailed reporting"
+      }
     },
     "support": {
       "title": "Technical Support",
       "description": "Round-the-clock customer support",
-      "features": [
-        "Phone support",
-        "Email assistance",
-        "Remote troubleshooting",
-        "Quick response time"
-      ]
+      "features": {
+        "phoneSupport": "Phone support",
+        "emailAssistance": "Email assistance",
+        "remoteTroubleshooting": "Remote troubleshooting",
+        "quickResponseTime": "Quick response time"
+      }
     },
     "training": {
       "title": "Training & Education",
       "description": "Comprehensive user training",
-      "features": [
-        "Device operation guide",
-        "App tutorials",
-        "Best practices",
-        "Advanced features guide"
-      ]
+      "features": {
+        "deviceOperationGuide": "Device operation guide",
+        "appTutorials": "App tutorials",
+        "bestPractices": "Best practices",
+        "advancedFeaturesGuide": "Advanced features guide"
+      }
     },
     "optimization": {
       "title": "System Optimization",
       "description": "Improve system performance",
-      "features": [
-        "Device tuning",
-        "Automation optimization",
-        "Energy efficiency",
-        "Security enhancement"
-      ]
+      "features": {
+        "deviceTuning": "Device tuning",
+        "automationOptimization": "Automation optimization",
+        "energyEfficiency": "Energy efficiency",
+        "securityEnhancement": "Security enhancement"
+      }
     },
     "maintenance": {
       "title": "Maintenance Plans",
       "description": "Preventive maintenance packages",
-      "features": [
-        "Regular inspections",
-        "Software updates",
-        "Battery replacements",
-        "Annual checkups"
-      ]
+      "features": {
+        "regularInspections": "Regular inspections",
+        "softwareUpdates": "Software updates",
+        "batteryReplacements": "Battery replacements",
+        "annualCheckups": "Annual checkups"
+      }
     },
     "packages": "Service Packages",
     "packagesDescription": "Choose the right service package for your needs",
@@ -168,36 +168,35 @@
       "name": "Basic",
       "price": "$199",
       "period": "/month",
-      "features": [
-        "Installation support",
-        "Basic troubleshooting",
-        "Email support",
-        "9-5 availability"
-      ]
+      "features": {
+        "installationSupport": "Installation support",
+        "basicTroubleshooting": "Basic troubleshooting",
+        "emailSupport": "Email support",
+        "9-5Availability": "9-5 availability"
+      }
     },
     "professional": {
       "name": "Professional",
       "price": "$399",
       "period": "/month",
-      "features": [
-        "Professional installation",
-        "24/7 technical support",
-        "Priority response",
-        "System optimization",
-        "Monthly checkups"
-      ]
+      "features": {
+        "siteAssessment": "Site assessment and consultation",
+        "deviceSetup": "Complete device setup",
+        "networkConfiguration": "Network configuration",
+        "testingVerification": "Testing and verification"
+      }
     },
     "enterprise": {
       "name": "Enterprise",
       "price": "$699",
       "period": "/month",
-      "features": [
-        "Everything in Professional",
-        "Dedicated account manager",
-        "Advanced monitoring",
-        "Quarterly maintenance",
-        "Custom integrations"
-      ]
+      "features": {
+        "everythingInProfessional": "Everything in Professional",
+        "dedicatedAccountManager": "Dedicated account manager",
+        "advancedMonitoring": "Advanced monitoring",
+        "quarterlyMaintenance": "Quarterly maintenance",
+        "customIntegrations": "Custom integrations"
+      }
     },
     "ready": "Ready to Get Started?",
     "readyDescription": "Contact our team to discuss your home security needs and find the perfect service package.",

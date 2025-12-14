@@ -23,21 +23,24 @@ import {
   Zap,
 } from "lucide-react";
 import { Link as RouterLink } from "@tanstack/react-router";
+import { useTranslation } from "react-i18next";
 
 const MotionBox = motion(Box);
 const MotionCard = motion(Card);
 
 export default function Services() {
+  const { t } = useTranslation();
+
   const services = [
     {
       icon: Wrench,
-      title: "Professional Installation",
-      description: "Expert installation by certified technicians",
+      title: t("services.installation.title"),
+      description: t("services.installation.description"),
       features: [
-        "Site assessment and consultation",
-        "Complete device setup",
-        "Network configuration",
-        "Testing and verification",
+        t("services.installation.features.siteAssessment"),
+        t("services.installation.features.deviceSetup"),
+        t("services.installation.features.networkConfiguration"),
+        t("services.installation.features.testingVerification"),
       ],
     },
     {
@@ -45,10 +48,10 @@ export default function Services() {
       title: "System Monitoring",
       description: "24/7 professional security monitoring",
       features: [
-        "Real-time alerts",
-        "Emergency response",
-        "Mobile app notifications",
-        "Detailed reporting",
+        t("services.monitoring.features.realTimeAlerts"),
+        t("services.monitoring.features.emergencyResponse"),
+        t("services.monitoring.features.mobileAppNotifications"),
+        t("services.monitoring.features.detailedReporting"),
       ],
     },
     {
@@ -56,10 +59,10 @@ export default function Services() {
       title: "Technical Support",
       description: "Round-the-clock customer support",
       features: [
-        "Phone support",
-        "Email assistance",
-        "Remote troubleshooting",
-        "Quick response time",
+        t("services.support.features.phoneSupport"),
+        t("services.support.features.emailAssistance"),
+        t("services.support.features.remoteTroubleshooting"),
+        t("services.support.features.quickResponseTime"),
       ],
     },
     {
@@ -67,10 +70,10 @@ export default function Services() {
       title: "Training & Education",
       description: "Comprehensive user training",
       features: [
-        "Device operation guide",
-        "App tutorials",
-        "Best practices",
-        "Advanced features guide",
+        t("services.training.features.deviceOperationGuide"),
+        t("services.training.features.appTutorials"),
+        t("services.training.features.bestPractices"),
+        t("services.training.features.advancedFeaturesGuide"),
       ],
     },
     {
@@ -78,10 +81,10 @@ export default function Services() {
       title: "System Optimization",
       description: "Improve system performance",
       features: [
-        "Device tuning",
-        "Automation optimization",
-        "Energy efficiency",
-        "Security enhancement",
+        t("services.optimization.features.deviceTuning"),
+        t("services.optimization.features.automationOptimization"),
+        t("services.optimization.features.energyEfficiency"),
+        t("services.optimization.features.securityEnhancement"),
       ],
     },
     {
@@ -89,10 +92,10 @@ export default function Services() {
       title: "Maintenance Plans",
       description: "Preventive maintenance packages",
       features: [
-        "Regular inspections",
-        "Software updates",
-        "Battery replacements",
-        "Annual checkups",
+        t("services.maintenance.features.regularInspections"),
+        t("services.maintenance.features.softwareUpdates"),
+        t("services.maintenance.features.batteryReplacements"),
+        t("services.maintenance.features.annualCheckups"),
       ],
     },
   ];
@@ -275,7 +278,7 @@ export default function Services() {
                 price: "$399",
                 period: "/month",
                 features: [
-                  "Professional installation",
+                  t("services.installation.title"),
                   "24/7 technical support",
                   "Priority response",
                   "System optimization",

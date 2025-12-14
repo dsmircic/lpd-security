@@ -8,43 +8,43 @@
     "getStarted": "Započni"
   },
   "home": {
-    "badge": "✨ Predstavljamo Shelly Home Security Suite",
+    "badge": "✨ Predstavljamo Vam moderna rješenja za sigurnost Vašeg doma",
     "hero": {
-      "title": "Zaštiti Svoj Dom",
-      "subtitle": "sa Pametnom Sigurnosti",
+      "title": "Zaštiti svoj dom",
+      "subtitle": "pametnije",
       "description": "Otkrij budućnost sigurnosti doma. Naši napredni Shelly uređaji u kombinaciji s profesionalnom instalacijom osiguravaju da je vaš dom zaštićen 24/7 s pametnom automatizacijom.",
-      "exploreProducts": "Istraži Proizvode",
-      "viewServices": "Pogledaj Usluge"
+      "exploreProducts": "Istraži proizvode",
+      "viewServices": "Pogledaj usluge"
     },
     "features": {
-      "title": "Zašto Odabrati Shelly Security?",
-      "subtitle": "Značajke u industriji za moderne domove",
+      "title": "Zašto biste odabrali nas?",
+      "subtitle": "Nudimo Vam najmodernija rješenja u industriji za moderne domove",
       "advanced": {
-        "title": "Napredna Sigurnost",
-        "description": "Zaštita boljeg stanja tehničke za vaš dom 24/7"
+        "title": "Napredna tehnologija",
+        "description": "Zaštitite svoj dom vrhunskom tehnologijom 24/7"
       },
       "smartControl": {
-        "title": "Pametna Kontrola",
-        "description": "Kontroliraj sve sa svog pametnog telefona, bilo gdje"
+        "title": "Pametna kontrola",
+        "description": "Kontrolirajte sve sa svog pametnog telefona, bilo gdje"
       },
       "energyEfficient": {
-        "title": "Energetski Učinkovit",
-        "description": "Uštedi do 40% na troškovima energije s pametnom automatizacijom"
+        "title": "Energetski učinkovito",
+        "description": "Uštedi na troškovima energije s pametnom automatizacijom"
       },
       "monitoring": {
-        "title": "Monitoring u Realnom Vremenu",
-        "description": "Dobij trenutne upozore i detaljne analize"
+        "title": "Praćenje u stvarnom vremenu",
+        "description": "Dobijte upozorenja i detaljne analize u stvarnom vremenu"
       }
     },
     "cta": {
-      "title": "Spreman Zaštititi Svoj Dom?",
-      "description": "Započni danas i uživaj u profesionalnoj instalaciji i podršci 24/7",
-      "button": "Dobij Besplatnu Konzultaciju"
+      "title": "Jeste li spremni zaštiti svoj dom?",
+      "description": "Započnite danas i dobijte profesionalnu instalaciju i podršku 24/7.",
+      "button": "Prijavi se za besplatnu konzultaciju"
     }
   },
   "products": {
-    "title": "Naš Katalog Proizvoda",
-    "description": "Istraži našu sveobuhvatnu ponudu Shelly pametnih kućnih uređaja dizajniranih za sigurnost, automatizaciju i energetsku učinkovitost.",
+    "title": "Naš katalog proizvoda",
+    "description": "Istraži našu sveobuhvatnu ponudu pametnih kućnih uređaja dizajniranih za sigurnost, automatizaciju i energetsku učinkovitost.",
     "pro4pm": {
       "name": "Shelly Pro 4PM",
       "description": "Napredni 4-kanalni relej sa mjerenjem snage",
@@ -110,67 +110,65 @@
     "freeConsultation": "Dobij Besplatnu Konzultaciju"
   },
   "services": {
-    "title": "Naše Premium Usluge",
+    "title": "Usluge ",
     "description": "Potpuna podrška i profesionalne usluge kako bi osigurao da vaš sigurnosni sustav radi savršeno.",
     "installation": {
-      "title": "Profesionalna Instalacija",
-      "description": "Stručna instalacija od sertificiranih tehničara",
-      "features": [
-        "Procjena lokacije i konsultacija",
-        "Kompletna postavka uređaja",
-        "Konfiguracija mreže",
-        "Testiranje i provjera"
-      ]
+      "title": "Instalacija",
+      "description": "Postavit ćemo Vaš sigurnosni sustav na licu mjesta",
+      "features": {
+        "siteAssessment": "Savjetovanje i procjena",
+        "deviceSetup": "Potpuno postavljanje uređaja",
+        "networkConfiguration": "Postavljanje mreže",
+        "testingVerification": "Testiranje i provjera"
+      }
     },
     "monitoring": {
-      "title": "Monitoring Sustava",
-      "description": "Profesionalni monitoring sigurnosti 24/7",
-      "features": [
-        "Upozore u realnom vremenu",
-        "Hitna pomoć",
-        "Obavijesti mobilne aplikacije",
-        "Detaljno izvještavanje"
-      ]
+      "title": "Nadziranje rada sustava",
+      "description": "Profesionalni nadziranje rada sustava sigurnosti 24/7",
+      "features": {
+        "realTimeAlerts": "Upozore u stvarnom vremenu",
+        "mobileAppNotifications": "Obavijesti putem mobilne aplikacije",
+        "detailedReporting": "Detaljni izvještaji"
+      }
     },
     "support": {
-      "title": "Tehnička Podrška",
-      "description": "Neprekidna podrška korisnicima",
-      "features": [
-        "Podrška putem telefona",
-        "Pomoć putem e-maila",
-        "Daljinsko rješavanje problema",
-        "Brz odgovor"
-      ]
+      "title": "Tehnička podrška",
+      "description": "Podrška korisnicima",
+      "features": {
+        "phoneSupport": "Podrška putem telefona",
+        "emailAssistance": "Podrška putem e-maila",
+        "remoteTroubleshooting": "Daljinsko rješavanje problema"
+      }
     },
     "training": {
-      "title": "Trening i Edukacija",
+      "title": "Trening i edukacija",
       "description": "Sveobuhvatni trening korisnika",
-      "features": [
-        "Vodič za rad sa uređajima",
-        "Tutorijali aplikacija",
-        "Najbolje prakse",
-        "Vodič naprednih značajki"
-      ]
+      "features": {
+        "deviceOperationGuide": "Vodič za rad sa uređajima",
+        "appTutorials": "Upute za rad s aplikacijom",
+        "bestPractices": "Najbolje prakse",
+        "advancedFeaturesGuide": "Vodič za rad s naprednim značajkama"
+      }
     },
     "optimization": {
       "title": "Optimizacija Sustava",
       "description": "Poboljšaj performanse sustava",
-      "features": [
-        "Ugađanje uređaja",
-        "Optimizacija automatizacije",
-        "Energetska učinkovitost",
-        "Poboljšanje sigurnosti"
-      ]
+      "features": {
+        "deviceTuning": "Ugađanje uređaja",
+        "automationOptimization": "Optimizacija automatizacije",
+        "energyEfficiency": "Energetska učinkovitost",
+        "securityEnhancement": "Poboljšanje sigurnosti"
+      }
     },
     "maintenance": {
       "title": "Planovi Održavanja",
       "description": "Paketi preventivnog održavanja",
-      "features": [
-        "Redovite provjere",
-        "Ažuriranja softvera",
-        "Zamjena baterija",
-        "Godišnje provjere"
-      ]
+      "features": {
+        "regularInspections": "Redovite provjere",
+        "softwareUpdates": "Ažuriranja softvera",
+        "batteryReplacements": "Zamjena baterija",
+        "annualCheckups": "Godišnje provjere"
+      }
     },
     "packages": "Paketi Usluga",
     "packagesDescription": "Odaberi odgovarajući paket usluga za svoje potrebe",
@@ -178,36 +176,36 @@
       "name": "Osnovni",
       "price": "$199",
       "period": "/mjesec",
-      "features": [
-        "Podrška pri instalaciji",
-        "Osnovno rješavanje problema",
-        "Podrška putem e-maila",
-        "Dostupnost 9-17"
-      ]
+      "features": {
+        "installationSupport": "Podrška pri instalaciji",
+        "basicTroubleshooting": "Osnovno rješavanje problema",
+        "emailSupport": "Podrška putem e-maila",
+        "availability": "Dostupnost 9-17"
+      }
     },
     "professional": {
       "name": "Profesionalni",
       "price": "$399",
       "period": "/mjesec",
-      "features": [
-        "Profesionalna instalacija",
-        "Tehnička podrška 24/7",
-        "Prioritetan odgovor",
-        "Optimizacija sustava",
-        "Mjesečne provjere"
-      ]
+      "features": {
+        "professionalInstallation": "Profesionalna instalacija",
+        "technicalSupport247": "Tehnička podrška 24/7",
+        "priorityResponse": "Prioritetan odgovor",
+        "systemOptimization": "Optimizacija sustava",
+        "monthlyCheckups": "Mjesečne provjere"
+      }
     },
     "enterprise": {
       "name": "Poslovni",
       "price": "$699",
       "period": "/mjesec",
-      "features": [
-        "Sve iz Profesionalnog",
-        "Dedicirani account manager",
-        "Napredni monitoring",
-        "Tromjesečno održavanje",
-        "Prilagođene integracije"
-      ]
+      "features": {
+        "allFromProfessional": "Sve iz Profesionalnog",
+        "dedicatedAccountManager": "Dedicirani account manager",
+        "advancedMonitoring": "Napredni monitoring",
+        "quarterlyMaintenance": "Tromjesečno održavanje",
+        "customIntegrations": "Prilagođene integracije"
+      }
     },
     "ready": "Spreman Započeti?",
     "readyDescription": "Kontaktiraj naš tim kako bi razgovarao o potrebama sigurnosti tvog doma i pronašao savršeni paket usluga.",
