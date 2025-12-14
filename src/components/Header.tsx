@@ -9,16 +9,20 @@ import {
 import { Link as RouterLink, useLocation } from "@tanstack/react-router";
 import { Lock, Menu } from "lucide-react";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header() {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
 
   const navLinks = [
-    { label: "Home", path: "/" },
-    { label: "Services", path: "/services" },
-    { label: "About", path: "/about" },
-    { label: "Contact", path: "/contact" },
+    { label: t("header.home"), path: "/" },
+    { label: t("header.products"), path: "/products" },
+    { label: t("header.services"), path: "/services" },
+    { label: t("header.about"), path: "/about" },
+    { label: t("header.contact"), path: "/contact" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -86,18 +90,20 @@ export default function Header() {
             ))}
           </HStack>
 
-          {/* CTA Button */}
-          <Button
-            display={{ base: "none", md: "flex" }}
-            bgGradient="linear(to-r, #2563eb, #1d4ed8)"
-            color="white"
-            _hover={{
-              transform: "translateY(-2px)",
-              boxShadow: "0 10px 30px rgba(37, 99, 235, 0.3)",
-            }}
-          >
-            Get Started
-          </Button>
+          {/* CTA Button and Language Switcher */}
+          <HStack spacing={4} display={{ base: "none", md: "flex" }}>
+            <LanguageSwitcher />
+            <Button
+              bgGradient="linear(to-r, #2563eb, #1d4ed8)"
+              color="white"
+              _hover={{
+                transform: "translateY(-2px)",
+                boxShadow: "0 10px 30px rgba(37, 99, 235, 0.3)",
+              }}
+            >
+              {t("header.getStarted")}
+            </Button>
+          </HStack>
 
           {/* Mobile Menu Toggle */}
           <Button
@@ -127,6 +133,9 @@ export default function Header() {
                 </ChakraLink>
               </RouterLink>
             ))}
+            <Box mt={4} pt={4} borderTop="1px solid rgba(37, 99, 235, 0.1)">
+              <LanguageSwitcher />
+            </Box>
           </Box>
         )}
       </Container>

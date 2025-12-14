@@ -12,31 +12,34 @@ import {
 import { ArrowRight, Shield, Zap, Smartphone, BarChart3 } from "lucide-react";
 import { Link as RouterLink } from "@tanstack/react-router";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const MotionBox = motion(Box);
 const MotionCard = motion(Card);
 
 export default function Home() {
+  const { t } = useTranslation();
+
   const features = [
     {
       icon: Shield,
-      title: "Advanced Security",
-      description: "State-of-the-art protection for your home 24/7",
+      title: t("home.features.advanced.title"),
+      description: t("home.features.advanced.description"),
     },
     {
       icon: Smartphone,
-      title: "Smart Control",
-      description: "Control everything from your smartphone, anywhere",
+      title: t("home.features.smartControl.title"),
+      description: t("home.features.smartControl.description"),
     },
     {
       icon: Zap,
-      title: "Energy Efficient",
-      description: "Save up to 40% on energy costs with smart automation",
+      title: t("home.features.energyEfficient.title"),
+      description: t("home.features.energyEfficient.description"),
     },
     {
       icon: BarChart3,
-      title: "Real-time Monitoring",
-      description: "Get instant alerts and detailed analytics",
+      title: t("home.features.monitoring.title"),
+      description: t("home.features.monitoring.description"),
     },
   ];
 
@@ -121,7 +124,7 @@ export default function Home() {
                 color="brand.600"
                 _hover={{ bg: "rgba(37, 99, 235, 0.1)" }}
               >
-                ✨ Introducing Shelly Home Security Suite
+                {t("home.badge")}
               </Button>
             </MotionBox>
 
@@ -134,7 +137,7 @@ export default function Home() {
                 bgGradient="linear(to-r, #1e3a8a, #2563eb)"
                 bgClip="text"
               >
-                Protect Your Home
+                {t("home.hero.title")}
                 <br />
                 <span
                   style={{
@@ -145,7 +148,7 @@ export default function Home() {
                     WebkitTextFillColor: "transparent",
                   }}
                 >
-                  with Smart Security
+                  {t("home.hero.subtitle")}
                 </span>
               </Heading>
             </MotionBox>
@@ -157,9 +160,7 @@ export default function Home() {
                 maxW="600px"
                 lineHeight="1.8"
               >
-                Discover the future of home security. Our advanced Shelly
-                devices combined with professional installation ensure your home
-                is protected 24/7 with smart automation.
+                {t("home.hero.description")}
               </Text>
             </MotionBox>
 

@@ -11,9 +11,11 @@ import {
 } from "@chakra-ui/react";
 import { Link as RouterLink } from "@tanstack/react-router";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const { t } = useTranslation();
 
   return (
     <Box
@@ -38,8 +40,7 @@ export default function Footer() {
               Shelly Security
             </Heading>
             <Text fontSize="sm" mb={4} color="gray.300">
-              Your trusted partner in home automation and security solutions
-              with premium Shelly devices.
+              {t("footer.companyDescription")}
             </Text>
             <HStack spacing={4}>
               <Box
@@ -75,17 +76,22 @@ export default function Footer() {
           {/* Quick Links */}
           <GridItem>
             <Heading size="sm" mb={4}>
-              Quick Links
+              {t("footer.quickLinks")}
             </Heading>
             <VStack spacing={2} align="flex-start">
               <RouterLink to="/">
                 <ChakraLink fontSize="sm" _hover={{ color: "blue.300" }}>
-                  Home
+                  {t("header.home")}
+                </ChakraLink>
+              </RouterLink>
+              <RouterLink to="/products">
+                <ChakraLink fontSize="sm" _hover={{ color: "blue.300" }}>
+                  {t("header.products")}
                 </ChakraLink>
               </RouterLink>
               <RouterLink to="/services">
                 <ChakraLink fontSize="sm" _hover={{ color: "blue.300" }}>
-                  Services
+                  {t("header.services")}
                 </ChakraLink>
               </RouterLink>
             </VStack>
@@ -94,21 +100,21 @@ export default function Footer() {
           {/* Company */}
           <GridItem>
             <Heading size="sm" mb={4}>
-              Company
+              {t("footer.company")}
             </Heading>
             <VStack spacing={2} align="flex-start">
               <RouterLink to="/about">
                 <ChakraLink fontSize="sm" _hover={{ color: "blue.300" }}>
-                  About Us
+                  {t("header.about")}
                 </ChakraLink>
               </RouterLink>
               <RouterLink to="/contact">
                 <ChakraLink fontSize="sm" _hover={{ color: "blue.300" }}>
-                  Contact
+                  {t("header.contact")}
                 </ChakraLink>
               </RouterLink>
               <ChakraLink href="#" fontSize="sm" _hover={{ color: "blue.300" }}>
-                Privacy Policy
+                {t("footer.privacyPolicy")}
               </ChakraLink>
             </VStack>
           </GridItem>
@@ -116,20 +122,20 @@ export default function Footer() {
           {/* Contact Info */}
           <GridItem>
             <Heading size="sm" mb={4}>
-              Contact
+              {t("footer.contactInfo")}
             </Heading>
             <VStack spacing={3} align="flex-start" fontSize="sm">
               <HStack>
                 <Phone size={16} />
-                <Text>+1 (555) 123-4567</Text>
+                <Text>{t("contact.phoneText")}</Text>
               </HStack>
               <HStack>
                 <Mail size={16} />
-                <Text>info@shellysecurity.com</Text>
+                <Text>{t("contact.emailText")}</Text>
               </HStack>
               <HStack>
                 <MapPin size={16} />
-                <Text>123 Tech Ave, Tech City, TC 12345</Text>
+                <Text>{t("contact.addressText")}</Text>
               </HStack>
             </VStack>
           </GridItem>
@@ -137,8 +143,7 @@ export default function Footer() {
 
         <Box borderTop="1px solid rgba(255, 255, 255, 0.1)" pt={8}>
           <Text fontSize="sm" color="gray.400" textAlign="center">
-            © {currentYear} Shelly Security. All rights reserved. | Powered by
-            modern technology
+            {t("footer.copyright", { year: currentYear })}
           </Text>
         </Box>
       </Container>

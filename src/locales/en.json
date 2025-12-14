@@ -1,0 +1,311 @@
+{
+  "header": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "home": {
+    "badge": "✨ Introducing Shelly Home Security Suite",
+    "hero": {
+      "title": "Protect Your Home",
+      "subtitle": "with Smart Security",
+      "description": "Discover the future of home security. Our advanced Shelly devices combined with professional installation ensure your home is protected 24/7 with smart automation.",
+      "exploreProducts": "Explore Products",
+      "viewServices": "View Services"
+    },
+    "features": {
+      "title": "Why Choose Shelly Security?",
+      "subtitle": "Industry-leading features designed for modern homes",
+      "advanced": {
+        "title": "Advanced Security",
+        "description": "State-of-the-art protection for your home 24/7"
+      },
+      "smartControl": {
+        "title": "Smart Control",
+        "description": "Control everything from your smartphone, anywhere"
+      },
+      "energyEfficient": {
+        "title": "Energy Efficient",
+        "description": "Save up to 40% on energy costs with smart automation"
+      },
+      "monitoring": {
+        "title": "Real-time Monitoring",
+        "description": "Get instant alerts and detailed analytics"
+      }
+    },
+    "cta": {
+      "title": "Ready to Secure Your Home?",
+      "description": "Get started today and enjoy professional installation and 24/7 support",
+      "button": "Get Your Free Consultation"
+    }
+  },
+  "products": {
+    "title": "Our Product Catalog",
+    "description": "Explore our comprehensive range of Shelly smart home devices designed for security, automation, and energy efficiency.",
+    "pro4pm": {
+      "name": "Shelly Pro 4PM",
+      "description": "Advanced 4-channel relay switch with power metering",
+      "features": [
+        "4 relays",
+        "Power metering",
+        "WiFi + Ethernet",
+        "Temperature sensor"
+      ]
+    },
+    "motion": {
+      "name": "Shelly Motion",
+      "description": "Wireless motion sensor with advanced detection",
+      "features": [
+        "Motion detection",
+        "Wireless",
+        "Long battery life",
+        "Compact design"
+      ]
+    },
+    "flood": {
+      "name": "Shelly Flood",
+      "description": "Water leak detection and alarm device",
+      "features": ["Flood detection", "Wireless", "IP68 rated", "Audio alert"]
+    },
+    "plug": {
+      "name": "Shelly Plus Plug S",
+      "description": "Smart WiFi plug with energy monitoring",
+      "features": [
+        "Energy monitoring",
+        "Remote control",
+        "Scheduling",
+        "Safety features"
+      ]
+    },
+    "door": {
+      "name": "Shelly Door/Window",
+      "description": "Wireless door and window sensor",
+      "features": ["Contact detection", "Wireless", "Tamper alert", "Low power"]
+    },
+    "temperature": {
+      "name": "Shelly Temperature",
+      "description": "Wireless temperature and humidity sensor",
+      "features": [
+        "Temperature sensor",
+        "Humidity sensor",
+        "Long range",
+        "2-year battery"
+      ]
+    },
+    "needAdvice": "Need Expert Advice?",
+    "needAdviceDescription": "Our specialists can help you choose the right devices for your home security needs.",
+    "freeConsultation": "Get Free Consultation"
+  },
+  "services": {
+    "title": "Our Premium Services",
+    "description": "Complete support and professional services to ensure your security system runs perfectly.",
+    "installation": {
+      "title": "Professional Installation",
+      "description": "Expert installation by certified technicians",
+      "features": [
+        "Site assessment and consultation",
+        "Complete device setup",
+        "Network configuration",
+        "Testing and verification"
+      ]
+    },
+    "monitoring": {
+      "title": "System Monitoring",
+      "description": "24/7 professional security monitoring",
+      "features": [
+        "Real-time alerts",
+        "Emergency response",
+        "Mobile app notifications",
+        "Detailed reporting"
+      ]
+    },
+    "support": {
+      "title": "Technical Support",
+      "description": "Round-the-clock customer support",
+      "features": [
+        "Phone support",
+        "Email assistance",
+        "Remote troubleshooting",
+        "Quick response time"
+      ]
+    },
+    "training": {
+      "title": "Training & Education",
+      "description": "Comprehensive user training",
+      "features": [
+        "Device operation guide",
+        "App tutorials",
+        "Best practices",
+        "Advanced features guide"
+      ]
+    },
+    "optimization": {
+      "title": "System Optimization",
+      "description": "Improve system performance",
+      "features": [
+        "Device tuning",
+        "Automation optimization",
+        "Energy efficiency",
+        "Security enhancement"
+      ]
+    },
+    "maintenance": {
+      "title": "Maintenance Plans",
+      "description": "Preventive maintenance packages",
+      "features": [
+        "Regular inspections",
+        "Software updates",
+        "Battery replacements",
+        "Annual checkups"
+      ]
+    },
+    "packages": "Service Packages",
+    "packagesDescription": "Choose the right service package for your needs",
+    "basic": {
+      "name": "Basic",
+      "price": "$199",
+      "period": "/month",
+      "features": [
+        "Installation support",
+        "Basic troubleshooting",
+        "Email support",
+        "9-5 availability"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "$399",
+      "period": "/month",
+      "features": [
+        "Professional installation",
+        "24/7 technical support",
+        "Priority response",
+        "System optimization",
+        "Monthly checkups"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "$699",
+      "period": "/month",
+      "features": [
+        "Everything in Professional",
+        "Dedicated account manager",
+        "Advanced monitoring",
+        "Quarterly maintenance",
+        "Custom integrations"
+      ]
+    },
+    "ready": "Ready to Get Started?",
+    "readyDescription": "Contact our team to discuss your home security needs and find the perfect service package.",
+    "scheduleConsultation": "Schedule Consultation"
+  },
+  "about": {
+    "title": "About Shelly Security",
+    "description": "We are a leading provider of smart home security solutions in the region. With over a decade of experience, we've helped thousands of families and businesses protect what matters most using cutting-edge Shelly technology.",
+    "mission": "Our mission is to make advanced home security accessible, affordable, and easy to use for everyone.",
+    "stats": {
+      "customers": "Happy Customers",
+      "experience": "Years Experience",
+      "projects": "Projects Completed",
+      "satisfaction": "Customer Satisfaction"
+    },
+    "story": {
+      "title": "Our Story",
+      "founded": "Founded on Trust",
+      "foundedText": "Shelly Security was founded by home automation enthusiasts who saw the potential of smart home devices. What started as a small consulting business has grown into a comprehensive security and automation solutions provider.",
+      "foundedText2": "We've always believed that advanced security shouldn't be complicated or expensive. Our team has been dedicated to bringing Shelly's innovative products to homes and businesses across the region.",
+      "commitment": "Our Commitment",
+      "commitmentText": "We're committed to providing exceptional service at every step. From the initial consultation to ongoing support, our experienced team ensures your security system is perfectly tailored to your needs.",
+      "commitmentText2": "With partnerships with Shelly and other leading manufacturers, we stay at the forefront of smart home technology. Our goal is to help you build a secure, automated home that works for you."
+    },
+    "why": "Why Choose Us",
+    "whyFeatures": [
+      {
+        "title": "Expert Team",
+        "description": "Certified technicians with years of experience in smart home security"
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Round-the-clock customer support to keep your home safe"
+      },
+      {
+        "title": "Latest Technology",
+        "description": "Always using the newest Shelly devices and automation solutions"
+      },
+      {
+        "title": "Competitive Pricing",
+        "description": "Transparent pricing with no hidden fees"
+      },
+      {
+        "title": "Custom Solutions",
+        "description": "Tailored security systems for your specific needs"
+      },
+      {
+        "title": "Long-Term Partnership",
+        "description": "We're here to support you for years to come"
+      }
+    ],
+    "secure": "Let's Secure Your Home Together",
+    "secureDescription": "Join thousands of satisfied customers who trust us with their home security.",
+    "getStartedToday": "Get Started Today"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Have questions? Our team is here to help. Reach out and we'll respond as soon as possible.",
+    "phone": "Phone",
+    "phoneText": "+1 (555) 123-4567",
+    "phoneAvailable": "Available 24/7",
+    "email": "Email",
+    "emailText": "info@shellysecurity.com",
+    "emailResponse": "Response within 2 hours",
+    "address": "Address",
+    "addressText": "123 Tech Ave, Tech City, TC 12345",
+    "addressVisit": "Visit us in person",
+    "hours": "Business Hours",
+    "hoursText": "Mon-Sun: 8:00 AM - 10:00 PM",
+    "hoursOpen": "Always open for you",
+    "formTitle": "Send us a Message",
+    "formDescription": "Fill out the form below and we'll get back to you within 2 hours during business hours.",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your security needs...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "✓ Thank you! We'll get back to you soon."
+    },
+    "map": "Find Us On The Map",
+    "mapDescription": "Visit our office for a personal consultation",
+    "mapPlaceholder": "Google Maps integration coming soon"
+  },
+  "footer": {
+    "companyDescription": "Your trusted partner in home automation and security solutions with premium Shelly devices.",
+    "quickLinks": "Quick Links",
+    "company": "Company",
+    "contactInfo": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© {year} Shelly Security. All rights reserved. | Powered by modern technology"
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page Not Found",
+    "description": "Oops! The page you're looking for doesn't exist. It might have been moved or deleted. Don't worry, we're here to help you get back on track.",
+    "goHome": "Go to Home",
+    "goBack": "Go Back"
+  },
+  "common": {
+    "addToCart": "Add to Cart",
+    "getStarted": "Get Started"
+  }
+}
