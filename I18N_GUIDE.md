@@ -1,4 +1,4 @@
-# Shelly Security Website - Multi-Language Support
+# LPD Security Website - Multi-Language Support
 
 This website now includes full multi-language support with **English** and **Croatian** translations using i18next.
 
@@ -66,7 +66,7 @@ For translations with variables:
 ```json
 {
   "footer": {
-    "copyright": "© {year} Shelly Security. All rights reserved."
+    "copyright": "© {year} LPD Security. All rights reserved."
   }
 }
 ```

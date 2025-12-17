@@ -71,7 +71,7 @@ export default function About() {
                     WebkitTextFillColor: "transparent",
                   }}
                 >
-                  Shelly Security
+                  LPD Security
                 </span>
               </Heading>
             </MotionBox>

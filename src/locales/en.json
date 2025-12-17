@@ -17,7 +17,7 @@
       "viewServices": "View Services"
     },
     "features": {
-      "title": "Why Choose Shelly Security?",
+      "title": "Why Choose LPD Security?",
       "subtitle": "Industry-leading features designed for modern homes",
       "advanced": {
         "title": "Advanced Security",
@@ -203,7 +203,7 @@
     "scheduleConsultation": "Schedule Consultation"
   },
   "about": {
-    "title": "About Shelly Security",
+    "title": "About LPD Security",
     "description": "We are a leading provider of smart home security solutions in the region. With over a decade of experience, we've helped thousands of families and businesses protect what matters most using cutting-edge Shelly technology.",
     "mission": "Our mission is to make advanced home security accessible, affordable, and easy to use for everyone.",
     "stats": {
@@ -216,7 +216,7 @@
       "title1": "Our",
       "title2": "Story",
       "founded": "Founded on Trust",
-      "foundedText": "Shelly Security was founded by two home automation enthusiasts who saw the potential of smart home devices. We are a small company with a big passion for technology and security.",
+      "foundedText": "LPD Security was founded by two home automation enthusiasts who saw the potential of smart home devices. We are a small company with a big passion for technology and security.",
       "foundedText2": "We've always believed that advanced security shouldn't be complicated or expensive. Our team has been dedicated to bringing Shelly's innovative products to homes and businesses across the region.",
       "commitment": "Our Commitment",
       "commitmentText": "We're committed to providing exceptional service at every step. From the initial consultation to ongoing support, our experienced team ensures your security system is perfectly tailored to your needs.",
@@ -284,7 +284,7 @@
     "company": "Company",
     "contactInfo": "Contact",
     "privacyPolicy": "Privacy Policy",
-    "copyright": "© {year} Shelly Security. All rights reserved. | Powered by modern technology"
+    "copyright": "© {year} LPD Security. All rights reserved. | Powered by modern technology"
   },
   "notFound": {
     "title": "404",

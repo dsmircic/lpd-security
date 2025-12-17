@@ -19,7 +19,6 @@ export default function Header() {
 
   const navLinks = [
     { label: t("header.home"), path: "/" },
-    { label: t("header.products"), path: "/products" },
     { label: t("header.services"), path: "/services" },
     { label: t("header.about"), path: "/about" },
     { label: t("header.contact"), path: "/contact" },
@@ -62,7 +61,7 @@ export default function Header() {
                 bgGradient="linear(to-r, #2563eb, #1d4ed8)"
                 bgClip="text"
               >
-                Shelly Security
+                LPD Security
               </Box>
             </Flex>
           </RouterLink>

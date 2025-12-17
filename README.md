@@ -1,4 +1,4 @@
-# Shelly Security - Multi-Language Website
+# LPD Security - Multi-Language Website
 
 A modern, responsive website for Shelly home security devices with full English and Croatian language support.
 

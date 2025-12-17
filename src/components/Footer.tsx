@@ -37,7 +37,7 @@ export default function Footer() {
               bgGradient="linear(to-r, #60a5fa, #3b82f6)"
               bgClip="text"
             >
-              Shelly Security
+              LPD Security
             </Heading>
             <Text fontSize="sm" mb={4} color="gray.300">
               {t("footer.companyDescription")}
@@ -82,11 +82,6 @@ export default function Footer() {
               <RouterLink to="/">
                 <ChakraLink fontSize="sm" _hover={{ color: "blue.300" }}>
                   {t("header.home")}
-                </ChakraLink>
-              </RouterLink>
-              <RouterLink to="/products">
-                <ChakraLink fontSize="sm" _hover={{ color: "blue.300" }}>
-                  {t("header.products")}
                 </ChakraLink>
               </RouterLink>
               <RouterLink to="/services">
