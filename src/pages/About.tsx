@@ -19,12 +19,12 @@ const MotionCard = motion(Card);
 
 export default function About() {
   const { t } = useTranslation();
-  const stats = [
-    { icon: Users, label: "Happy Customers", value: "5,000+" },
-    { icon: Award, label: "Years Experience", value: "10+" },
-    { icon: TrendingUp, label: "Projects Completed", value: "2,500+" },
-    { icon: Target, label: "Customer Satisfaction", value: "98%" },
-  ];
+  // const stats = [
+  //   { icon: Users, label: "Happy Customers", value: "5,000+" },
+  //   { icon: Award, label: "Years Experience", value: "10+" },
+  //   { icon: TrendingUp, label: "Projects Completed", value: "2,500+" },
+  //   { icon: Target, label: "Customer Satisfaction", value: "98%" },
+  // ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
