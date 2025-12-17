@@ -151,17 +151,17 @@
       }
     },
     "optimization": {
-      "title": "Optimizacija Sustava",
+      "title": "Optimizacija sustava",
       "description": "Poboljšaj performanse sustava",
       "features": {
-        "deviceTuning": "Ugađanje uređaja",
-        "automationOptimization": "Optimizacija automatizacije",
+        "deviceTuning": "Postavljanje uređaja",
+        "automationOptimization": "Automatizacija rada",
         "energyEfficiency": "Energetska učinkovitost",
-        "securityEnhancement": "Poboljšanje sigurnosti"
+        "securityEnhancement": "Sigurnost doma"
       }
     },
     "maintenance": {
-      "title": "Planovi Održavanja",
+      "title": "Planovi održavanja",
       "description": "Paketi preventivnog održavanja",
       "features": {
         "regularInspections": "Redovite provjere",
@@ -170,25 +170,23 @@
         "annualCheckups": "Godišnje provjere"
       }
     },
-    "packages": "Paketi Usluga",
-    "packagesDescription": "Odaberi odgovarajući paket usluga za svoje potrebe",
+    "packages": "Paketi usluga",
+    "packagesDescription": "Odaberi odgovarajući paket usluga",
     "basic": {
       "name": "Osnovni",
-      "price": "$199",
-      "period": "/mjesec",
+      "price": "€250",
       "features": {
-        "installationSupport": "Podrška pri instalaciji",
+        "hardware": "2 Shelly uređaja",
         "basicTroubleshooting": "Osnovno rješavanje problema",
         "emailSupport": "Podrška putem e-maila",
-        "availability": "Dostupnost 9-17"
+        "availability": "Dostupnost 17-21"
       }
     },
     "professional": {
       "name": "Profesionalni",
-      "price": "$399",
-      "period": "/mjesec",
+      "price": "€350",
       "features": {
-        "professionalInstallation": "Profesionalna instalacija",
+        "hardware": "3 Shelly uređaja",
         "technicalSupport247": "Tehnička podrška 24/7",
         "priorityResponse": "Prioritetan odgovor",
         "systemOptimization": "Optimizacija sustava",
@@ -197,19 +195,17 @@
     },
     "enterprise": {
       "name": "Poslovni",
-      "price": "$699",
-      "period": "/mjesec",
+      "price": "€400",
       "features": {
         "allFromProfessional": "Sve iz Profesionalnog",
-        "dedicatedAccountManager": "Dedicirani account manager",
         "advancedMonitoring": "Napredni monitoring",
         "quarterlyMaintenance": "Tromjesečno održavanje",
         "customIntegrations": "Prilagođene integracije"
       }
     },
-    "ready": "Spreman Započeti?",
+    "ready": "Jeste li spremni za početi?",
     "readyDescription": "Kontaktiraj naš tim kako bi razgovarao o potrebama sigurnosti tvog doma i pronašao savršeni paket usluga.",
-    "scheduleConsultation": "Zakaži Konzultaciju"
+    "scheduleConsultation": "Zakaži konzultaciju"
   },
   "about": {
     "title": "O Shelly Securityu",
@@ -222,51 +218,53 @@
       "satisfaction": "Zadovoljstva Korisnika"
     },
     "story": {
-      "title": "Naša Priča",
+      "title1": "Naša",
+      "title2": "Priča",
       "founded": "Osnovano na Povjerenju",
       "foundedText": "Shelly Security je osnovan od strane entuzijasta pametne kuće koji su vidjeli potencijal pametnih kućnih uređaja. Ono što je počelo kao mali konsultacijski posao, preraslo je u sveobuhvatnu pružatelja rješenja za sigurnost i automatizaciju.",
       "foundedText2": "Uvijek smo bili uvjereni da napredna sigurnost ne bi trebala biti komplicirana ili skupa. Naš tim je dedikiran donošenju inovativnih proizvoda Shellya domova i poslova diljem regije.",
       "commitment": "Naša Obveza",
-      "commitmentText": "Predani smo pružanju iznimne usluge na svakom koraku. Od početne konzultacije do kontinuirane podrške, naš iskusan tim osigurava da je vaš sigurnosni sustav savršeno prilagođen vašim potrebama.",
-      "commitmentText2": "S partnerstvima sa Shellym i drugim vodećim proizvođačima, ostajemo na čelu tehnologije pametnih domova. Naš cilj je pomoći vam da izgradite siguran, automatiziran dom koji radi za vas."
+      "commitmentText": "Predani smo pružanju iznimne usluge na svakom koraku. Od početne konzultacije do kontinuirane podrške, naš tim osigurava da je vaš sigurnosni sustav savršeno prilagođen vašim potrebama.",
+      "commitmentText2": "Kroz partnerstva sa Shellym i drugim vodećim proizvođačima, uvijek radimo s najnovijom tehnologijom za pametne domove. Naš cilj je pomoći vam da izgradite siguran, automatiziran dom."
     },
-    "why": "Zašto Odabrati Nas",
+    "why1": "Zašto",
+    "why2": "biste odabrali nas?",
     "whyFeatures": [
       {
-        "title": "Stručan Tim",
-        "description": "Sertificirani tehničari s godinama iskustva u sigurnosti pametnih domova"
+        "title": "Stručan tim",
+        "description": "Tehničari će vam pomoći pri svakom koraku"
       },
       {
-        "title": "Podrška 24/7",
-        "description": "Neprekidna podrška korisnicima da drži vaš dom siguran"
+        "title": "Podrška 17-24",
+        "description": "Podrška korisnicima da drži vaš dom siguran"
       },
       {
-        "title": "Najnovija Tehnologija",
-        "description": "Uvijek koriste najnovije Shelly uređaje i rješenja za automatizaciju"
+        "title": "Najnovija tehnologija",
+        "description": "Uvijek koristimo najnovije Shelly uređaje i softver"
       },
       {
-        "title": "Konkurentne Cijene",
+        "title": "Konkurentne cijene",
         "description": "Transparentne cijene bez skrivenih troškova"
       },
       {
-        "title": "Prilagođena Rješenja",
-        "description": "Sigurnosni sustavi prilagođeni vašim specifičnim potrebama"
+        "title": "Prilagođena rješenja",
+        "description": "Sigurnosni sustavi prilagođeni specifičnim potrebama"
       },
       {
-        "title": "Dugoročno Partnerstvo",
-        "description": "Tu smo da vas podržimo godinama"
+        "title": "Dugoročno partnerstvo",
+        "description": "Tu smo da vas podržavamo godinama"
       }
     ],
-    "secure": "Zajedno Zaštitimo Tvoj Dom",
-    "secureDescription": "Pridruži se tisućama zadovoljnih korisnika koji nam vjeruju za sigurnost svojih domova.",
-    "getStartedToday": "Započni Danas"
+    "secure": "Zajedno zaštitimo Vaš dom",
+    "secureDescription": "Pridruži se zadovoljnim korisnicima koji nam vjeruju za sigurnost svojih domova.",
+    "getStartedToday": "Započni danas"
   },
   "contact": {
-    "title": "Stani u Kontakt",
-    "description": "Imaš pitanja? Naš tim je tu da ti pomogne. Dosegni nas i odgovoriti ćemo što prije možemo.",
+    "title": "Kontaktiraj nas",
+    "description": "Imaš pitanja? Naš tim je tu da ti pomogne. Javi nam se i odgovorit ćemo što prije možemo.",
     "phone": "Telefon",
     "phoneText": "+1 (555) 123-4567",
-    "phoneAvailable": "Dostupan 24/7",
+    "phoneAvailable": "Dostupan 17-24",
     "email": "E-mail",
     "emailText": "info@shellysecurity.com",
     "emailResponse": "Odgovor u roku 2 sata",
@@ -307,13 +305,13 @@
   },
   "notFound": {
     "title": "404",
-    "heading": "Stranica Nije Pronađena",
+    "heading": "Stranica nije pronađena",
     "description": "Oops! Stranica koju tražiš ne postoji. Možda je premještena ili obrisana. Ne brini, tu smo da te vratimo na pravi put.",
-    "goHome": "Idi na Početnu",
-    "goBack": "Idi Natrag"
+    "goHome": "Idi na početnu",
+    "goBack": "Idi natrag"
   },
   "common": {
-    "addToCart": "Dodaj u Košaricu",
+    "addToCart": "Dodaj u košaricu",
     "getStarted": "Započni"
   }
 }

@@ -45,8 +45,8 @@ export default function Services() {
     },
     {
       icon: Shield,
-      title: "System Monitoring",
-      description: "24/7 professional security monitoring",
+      title: t("services.monitoring.title"),
+      description: t("services.monitoring.description"),
       features: [
         t("services.monitoring.features.realTimeAlerts"),
         t("services.monitoring.features.emergencyResponse"),
@@ -56,8 +56,8 @@ export default function Services() {
     },
     {
       icon: Headphones,
-      title: "Technical Support",
-      description: "Round-the-clock customer support",
+      title: t("services.support.title"),
+      description: t("services.support.description"),
       features: [
         t("services.support.features.phoneSupport"),
         t("services.support.features.emailAssistance"),
@@ -67,8 +67,8 @@ export default function Services() {
     },
     {
       icon: BookOpen,
-      title: "Training & Education",
-      description: "Comprehensive user training",
+      title: t("services.training.title"),
+      description: t("services.training.description"),
       features: [
         t("services.training.features.deviceOperationGuide"),
         t("services.training.features.appTutorials"),
@@ -78,8 +78,8 @@ export default function Services() {
     },
     {
       icon: Zap,
-      title: "System Optimization",
-      description: "Improve system performance",
+      title: t("services.optimization.title"),
+      description: t("services.optimization.description"),
       features: [
         t("services.optimization.features.deviceTuning"),
         t("services.optimization.features.automationOptimization"),
@@ -89,8 +89,8 @@ export default function Services() {
     },
     {
       icon: Box,
-      title: "Maintenance Plans",
-      description: "Preventive maintenance packages",
+      title: t("services.maintenance.title"),
+      description: t("services.maintenance.description"),
       features: [
         t("services.maintenance.features.regularInspections"),
         t("services.maintenance.features.softwareUpdates"),

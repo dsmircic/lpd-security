@@ -124,7 +124,7 @@
     },
     "support": {
       "title": "Technical Support",
-      "description": "Round-the-clock customer support",
+      "description": "Customer support",
       "features": {
         "phoneSupport": "Phone support",
         "emailAssistance": "Email assistance",
@@ -213,41 +213,31 @@
       "satisfaction": "Customer Satisfaction"
     },
     "story": {
-      "title": "Our Story",
+      "title1": "Our",
+      "title2": "Story",
       "founded": "Founded on Trust",
-      "foundedText": "Shelly Security was founded by home automation enthusiasts who saw the potential of smart home devices. What started as a small consulting business has grown into a comprehensive security and automation solutions provider.",
+      "foundedText": "Shelly Security was founded by two home automation enthusiasts who saw the potential of smart home devices. We are a small company with a big passion for technology and security.",
       "foundedText2": "We've always believed that advanced security shouldn't be complicated or expensive. Our team has been dedicated to bringing Shelly's innovative products to homes and businesses across the region.",
       "commitment": "Our Commitment",
       "commitmentText": "We're committed to providing exceptional service at every step. From the initial consultation to ongoing support, our experienced team ensures your security system is perfectly tailored to your needs.",
       "commitmentText2": "With partnerships with Shelly and other leading manufacturers, we stay at the forefront of smart home technology. Our goal is to help you build a secure, automated home that works for you."
     },
-    "why": "Why Choose Us",
-    "whyFeatures": [
-      {
-        "title": "Expert Team",
-        "description": "Certified technicians with years of experience in smart home security"
-      },
-      {
-        "title": "24/7 Support",
-        "description": "Round-the-clock customer support to keep your home safe"
-      },
-      {
-        "title": "Latest Technology",
-        "description": "Always using the newest Shelly devices and automation solutions"
-      },
-      {
-        "title": "Competitive Pricing",
-        "description": "Transparent pricing with no hidden fees"
-      },
-      {
-        "title": "Custom Solutions",
-        "description": "Tailored security systems for your specific needs"
-      },
-      {
-        "title": "Long-Term Partnership",
-        "description": "We're here to support you for years to come"
-      }
-    ],
+    "why1": "Why",
+    "why2": "Choose Us?",
+    "whyFeatures": {
+      "expertTitle": "Expert Team",
+      "expertDescription": "Certified technicians with years of experience in smart home security",
+      "supportTitle": "17-24 Support",
+      "supportDescription": "Round-the-clock customer support to keep your home safe",
+      "technologyTitle": "Latest Technology",
+      "technologyDescription": "Always using the newest Shelly devices and automation solutions",
+      "pricingTitle": "Competitive Pricing",
+      "pricingDescription": "Transparent pricing with no hidden fees",
+      "solutionsTitle": "Custom Solutions",
+      "solutionsDescription": "Tailored security systems for your specific needs",
+      "partnershipTitle": "Long-Term Partnership",
+      "partnershipDescription": "We're here to support you for years to come"
+    },
     "secure": "Let's Secure Your Home Together",
     "secureDescription": "Join thousands of satisfied customers who trust us with their home security.",
     "getStartedToday": "Get Started Today"
@@ -257,7 +247,7 @@
     "description": "Have questions? Our team is here to help. Reach out and we'll respond as soon as possible.",
     "phone": "Phone",
     "phoneText": "+1 (555) 123-4567",
-    "phoneAvailable": "Available 24/7",
+    "phoneAvailable": "Available 17-24 Mon-Sun",
     "email": "Email",
     "emailText": "info@shellysecurity.com",
     "emailResponse": "Response within 2 hours",

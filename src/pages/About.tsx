@@ -12,11 +12,13 @@ import {
 import { motion } from "framer-motion";
 import { Users, Target, Award, TrendingUp } from "lucide-react";
 import { Link as RouterLink } from "@tanstack/react-router";
+import { useTranslation } from "react-i18next";
 
 const MotionBox = motion(Box);
 const MotionCard = motion(Card);
 
 export default function About() {
+  const { t } = useTranslation();
   const stats = [
     { icon: Users, label: "Happy Customers", value: "5,000+" },
     { icon: Award, label: "Years Experience", value: "10+" },
@@ -104,7 +106,7 @@ export default function About() {
       </Box>
 
       {/* Stats Section */}
-      <Container maxW="7xl" py={20}>
+      {/* <Container maxW="7xl" py={20}>
         <MotionBox
           initial="hidden"
           whileInView="visible"
@@ -153,7 +155,7 @@ export default function About() {
             })}
           </Grid>
         </MotionBox>
-      </Container>
+      </Container> */}
 
       {/* Story Section */}
       <Box
@@ -169,7 +171,7 @@ export default function About() {
           >
             <MotionBox variants={itemVariants} mb={8}>
               <Heading as="h2" size="xl">
-                Our{" "}
+                {t("about.story.title1")}{" "}
                 <span
                   style={{
                     backgroundImage:
@@ -179,7 +181,7 @@ export default function About() {
                     WebkitTextFillColor: "transparent",
                   }}
                 >
-                  Story
+                  {t("about.story.title2")}
                 </span>
               </Heading>
             </MotionBox>
@@ -188,19 +190,13 @@ export default function About() {
               <MotionBox variants={itemVariants}>
                 <VStack spacing={4} align="flex-start">
                   <Heading as="h3" size="md">
-                    Founded on Trust
+                    {t("about.story.founded")}
                   </Heading>
                   <Text color="gray.600" lineHeight="1.8">
-                    Shelly Security was founded by home automation enthusiasts
-                    who saw the potential of smart home devices. What started as
-                    a small consulting business has grown into a comprehensive
-                    security and automation solutions provider.
+                    {t("about.story.foundedText")}
                   </Text>
                   <Text color="gray.600" lineHeight="1.8">
-                    We've always believed that advanced security shouldn't be
-                    complicated or expensive. Our team has been dedicated to
-                    bringing Shelly's innovative products to homes and
-                    businesses across the region.
+                    {t("about.story.foundedText2")}
                   </Text>
                 </VStack>
               </MotionBox>
@@ -208,19 +204,13 @@ export default function About() {
               <MotionBox variants={itemVariants}>
                 <VStack spacing={4} align="flex-start">
                   <Heading as="h3" size="md">
-                    Our Commitment
+                    {t("about.story.commitment")}
                   </Heading>
                   <Text color="gray.600" lineHeight="1.8">
-                    We're committed to providing exceptional service at every
-                    step. From the initial consultation to ongoing support, our
-                    experienced team ensures your security system is perfectly
-                    tailored to your needs.
+                    {t("about.story.commitmentText")}
                   </Text>
                   <Text color="gray.600" lineHeight="1.8">
-                    With partnerships with Shelly and other leading
-                    manufacturers, we stay at the forefront of smart home
-                    technology. Our goal is to help you build a secure,
-                    automated home that works for you.
+                    {t("about.story.commitmentText2")}
                   </Text>
                 </VStack>
               </MotionBox>
@@ -241,7 +231,7 @@ export default function About() {
         >
           <MotionBox variants={itemVariants} mb={4}>
             <Heading as="h2" size="xl">
-              Why{" "}
+              {t("about.why1")}{" "}
               <span
                 style={{
                   backgroundImage:
@@ -251,7 +241,7 @@ export default function About() {
                   WebkitTextFillColor: "transparent",
                 }}
               >
-                Choose Us
+                {t("about.why2")}
               </span>
             </Heading>
           </MotionBox>
@@ -271,32 +261,28 @@ export default function About() {
           <Grid templateColumns={{ base: "1fr", md: "2fr 2fr 2fr" }} gap={8}>
             {[
               {
-                title: "Expert Team",
-                description:
-                  "Certified technicians with years of experience in smart home security",
+                title: t("about.whyFeatures.expertTitle"),
+                description: t("about.whyFeatures.expertDescription"),
               },
               {
-                title: "24/7 Support",
-                description:
-                  "Round-the-clock customer support to keep your home safe",
+                title: t("about.whyFeatures.supportTitle"),
+                description: t("about.whyFeatures.supportDescription"),
               },
               {
-                title: "Latest Technology",
-                description:
-                  "Always using the newest Shelly devices and automation solutions",
+                title: t("about.whyFeatures.technologyTitle"),
+                description: t("about.whyFeatures.technologyDescription"),
               },
               {
-                title: "Competitive Pricing",
-                description: "Transparent pricing with no hidden fees",
+                title: t("about.whyFeatures.pricingTitle"),
+                description: t("about.whyFeatures.pricingDescription"),
               },
               {
-                title: "Custom Solutions",
-                description:
-                  "Tailored security systems for your specific needs",
+                title: t("about.whyFeatures.solutionsTitle"),
+                description: t("about.whyFeatures.solutionsDescription"),
               },
               {
-                title: "Long-Term Partnership",
-                description: "We're here to support you for years to come",
+                title: t("about.whyFeatures.partnershipTitle"),
+                description: t("about.whyFeatures.partnershipDescription"),
               },
             ].map((item, idx) => (
               <MotionCard
